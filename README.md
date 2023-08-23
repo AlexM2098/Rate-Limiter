@@ -1,7 +1,7 @@
 # Rate Limiter and Test Documentation
 
 ## Introduction
-"MyProject" is a Django-based web application designed to demonstrate a rate limiter and a test runner. This documentation provides a comprehensive guide to understanding and using the application.
+"Rate-Limiter" is a Django-based web application designed to demonstrate a rate limiter and a test runner. This documentation provides a comprehensive guide to understanding and using the application.
 
 ### Rate Limiter
 The rate limiter ensures that a user (identified by their IP address) can't make more than a certain number of requests in a given time period. If a user exceeds this limit, they receive a "Rate limit exceeded" response.
