@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate Limiter Test Runner</title>
+</head>
+<body>
+    <h1>Rate Limiter Test Runner</h1>
+    <form action="{% url 'run_tests' %}" method="post">
+        {% csrf_token %}
+        <input type="submit" value="Run Tests">
+    </form>
+    {% if results %}
+    <pre>{{ results }}</pre>
+    {% endif %}
+</body>
+</html>
